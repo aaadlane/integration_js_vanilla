@@ -1,0 +1,11 @@
+@import url("./mobile/main-mobile.css");
+@import url("./desktop/main-desk.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+
+}
