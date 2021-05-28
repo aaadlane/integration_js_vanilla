@@ -1,78 +1,95 @@
-.img-logo {
-    height: 20%;
-    width: 20%;
-    margin-top: 10px;
-    margin-left: 10px
-}
-
-.hr-burger-bar {
-    width: 20px;
-    margin: 2px;
-    border: 1px solid red;
-
-}
-
-.burger-bar {
- display: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* main */
-
-.main-mobile {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    text-align: center;
-
-}
-
-.h1-main-mobile {
-    font-size: 48px;
-    margin: 30px auto;
-    font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-line-height: 62px;
-
-}
-
-.p-sub-h1-main-mobile {
-    margin-bottom: 20px;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 17px;
-}
-
-.img-main-mobile {
-    border-radius: 10px;
-}
-
-.signup-button-mobile {
-    margin: 30px auto;
-    width: 141px;
-    height: 31px;
-    background: #FE142F;
-    border-radius: 8px;
-    border: none;
-    font-size: 14px;
-}
-.footer-text-mobile{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 12px;
-    /* identical to box height */
+@media screen and (min-width : 1024px) {
+    .img-logo {
+        height: 20%;
+        width: 20%;
+        margin-top: 10px;
+        margin-left: 10px
+    }
     
-    text-align: center;
+    .header-links {
+        margin-top: 20px;
+        margin-right: 105px;
+        display: block;
+
+    }
     
-    color: #FE142F;
-    margin-bottom: 20px;
+    .header-links>a {
+        margin: auto 10px;
+        text-decoration: none;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+    
+    }
+    
+    .hr-burger-bar {
+        width: 20px;
+        margin: 2px;
+        border: 1px solid red;
+    
+    }
+    
+    .burger-bar {
+        display: none;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .h1-main-mobile {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 96px;
+        line-height: 125px;
+        color: #FFFFFF;
+        width: 60%;
+        position: left;
+        margin: 30px 0;
+    }
+    .main-mobile{
+        background-color: #232323;
+        background-image: url("./../../html/assets/desk-img.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 600px;
+    }
+    .p-sub-h1-main-mobile {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        color: #FFFFFF;
+        margin: 50px 0;
+        position: left;
+        width: 40%;
+
+    }
+    
+    .img-main-mobile {
+        display: none;
+    }
+    
+    .signup-button-mobile {
+        margin: 30px 30px;
+        width: 141px;
+        height: 31px;
+        background: #FE142F;
+        border-radius: 8px;
+        border: none;
+        font-size: 14px;
+    }
+    
+    .footer-text-mobile {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+    }
 }

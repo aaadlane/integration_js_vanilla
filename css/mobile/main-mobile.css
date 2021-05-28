@@ -1,5 +1,5 @@
 /* Version smartphone */
-@media only screen and (min-device-width : 20px) and (max-device-width : 480px) {
+@media only screen and (min-width : 480px) {
     .img-logo {
         height: 20%;
         width: 20%;
@@ -22,6 +22,9 @@
     header {
         display: flex;
         justify-content: space-between;
+    }
+    .header-links{
+        display: none;
     }
 
     /* main */
